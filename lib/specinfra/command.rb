@@ -350,3 +350,7 @@ require 'specinfra/command/poky/base/interface'
 require 'specinfra/command/poky/base/inventory'
 require 'specinfra/command/poky/base/package'
 require 'specinfra/command/poky/base/service'
+
+# RancherOS (inherit Linux)
+require 'specinfra/command/ros'
+require 'specinfra/command/ros/base'
